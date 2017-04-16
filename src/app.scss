@@ -1,11 +1,108 @@
+body {
+  background: #f2f0e7;
+  padding: 0;
+  margin: 0;
+  font-family: "share-techmono";
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-.App-header {
-  height: 150px;
-  padding: 20px;
+.container {
+  padding: 10px;
+  height: 100vh;
+  width: 100%;
+
+  .home-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.title-card {
+  display: block;
+  cursor: pointer;
+  border: 4px solid #1E90FF;
+  width: auto;
   color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 5px;
+  padding: 10px;
 
-  h2 {
-    text-align: center;
-    color: red !important
+  p {
+    display: block;
+    color: #1E90FF;
+    font-size: .875em;
+  }
+
+  &:hover {
+    background: #1E90FF;
+    width: 65px;
+
+    p {
+      color: #fff;
+      display: inline;
+    }
+  }
+}
+
+.news-mod {
+  width: 100%;
+  margin: 0 auto;
+  .title {
+    max-width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 90px;
+    white-space: pre-wrap;
+    h3 {
+      margin: 0 0 12px 0;
+    }
+
+    a {
+      cursor: pointer;
+      font-size: 1.75em;
+      margin: 0;
+      padding: 6px 7px 3px 7px;
+    }
+
+    &:hover {
+      a {
+        background: #1E90FF;
+        color: #fff;
+      }
+    }
+  }
+
+  .mod-list {
+    padding-left: 40%;
+    width: 100%;
+
+    .module-1 {
+      p {
+        font-size: 4em;
+      }
+    }
+
+    .module-2 {
+      p {
+        font-size: 3em;
+      }
+    }
+
+    .module-3,
+    .module-4 {
+      p {
+        font-size: 2em;
+      }
+    }
   }
 }

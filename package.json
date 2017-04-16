@@ -1,8 +1,8 @@
 {
-  "name": "cnstrktn",
+  "name": "deep-news-club",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://doodybrains.github.io/react-app-with-sass/",
+  "homepage": "https://doodybrains.github.io/deep-news-club",
   "devDependencies": {
     "autoprefixer": "6.4.1",
     "babel-core": "6.14.0",
